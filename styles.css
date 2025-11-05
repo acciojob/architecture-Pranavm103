@@ -1,1 +1,70 @@
-/*  your css code here. If applicable */
+body {
+      background: #ccd6cc;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .mainContainer {
+      width: 1100px;
+      margin: 30px auto;
+      background: #eaf0ea;
+      padding: 28px 0 32px 0;
+      border-radius: 16px;
+      box-shadow: 0 6px 24px rgba(100,135,100,0.10);
+    }
+    .imageContainer {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+    .imageContainer img {
+      max-width: 780px;
+      max-height: 360px;
+      border-radius: 12px;
+      box-shadow: 0 2px 18px rgba(40,40,50,0.14);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #dde7dd;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 1px 14px rgba(80,120,90,0.07);
+    }
+    tr {
+      height: 170px;
+    }
+    td {
+      vertical-align: middle;
+      padding: 12px;
+      border: 1px solid #c0c6b8;
+    }
+    td.imageColumn {
+      width: 200px;
+      text-align: center;
+      background: #e6eee6;
+    }
+    td.textColumn {
+      width: 600px;
+      text-align: center;
+      font-size: 1.16rem;
+      background: #fbfaf7;
+      color: #24362d;
+    }
+    .smallImg {
+      max-width: 180px;
+      max-height: 120px;
+      border-radius: 8px;
+      box-shadow: 0 1px 10px rgba(26,49,38,0.11);
+    }
+    .rowTitle {
+      font-weight: bold;
+      font-size: 1.21rem;
+      color: #183a2f;
+      margin-bottom: 7px;
+      display: block;
+    }
+    .description {
+      color: #355b44;
+      line-height: 1.5;
+    }
